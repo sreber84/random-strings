@@ -21,6 +21,6 @@ func main() {
 
 	for {
 		currentTime := time.Now()
-		fmt.Println(currentTime.Format("2006-01-02 15:04:05.000000000"), " - ", RandomString(1000))
+		fmt.Println(currentTime.Format("2006-01-02 15:04:05.000000000"), " - ", RandomString(100))
 	}
 }
